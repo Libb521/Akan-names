@@ -5086,8 +5086,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
+  /* background-image: url("https://i.pinimg.com/236x/cd/0d/60/cd0d601b2f7bc8930980ca85334c1dbe.jpg"); */
+  background-color: #6c757d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 @media (min-width: 576px) {

@@ -1,0 +1,18 @@
+body{
+    background-image: url("/home/moringaschool/Desktop/My-projects/Week2/Akan-names/smiling-woman-wearing-green-and-black-turban-2952204.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#intro
+#names{
+    font-size: 10px;
+}
+#names h2{
+    color: black;
+}
+#intro h1{
+    text-align: center;
+    color: black;
+    font-family: 'Rye', cursive;
+}
