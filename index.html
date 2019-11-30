@@ -2,66 +2,99 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Akan Names</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/236x/cd/0d/60/cd0d601b2f7bc8930980ca85334c1dbe.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Akan Names</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/236x/cd/0d/60/cd0d601b2f7bc8930980ca85334c1dbe.jpg">
 </head>
 
 <body>
-    <script type="text/javascript">
-        </script>
-    <div class="container">
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Akan Names</h1>
-                    <p>Akan names are derived from people of Ghana. They frequently name their children after the day of the week they were born
-                        and the order in which they were born. These "day names" have further meanings concerning the
-                        soul and character of the person. Middle names have considerably more variety and can refer to
-                        their birth order, twin status, or an ancestor's middle name. <br>
-                    The application helps calculate a person's Akan name when they input their birthday </p>
-                </div>
-            </div>
-
-            <div class="row">
-                    <div class="panel col-md-6">
-                            <div class="form-group top-form">
-                              <label for="century" class="labels">Century</label>
-                              <input type="number" class="form-control" placeholder="Enter century" id="century" required  min="0" max="30">
-                            </div>
-                            <div class="form-group">
-                              <label for="year" class="labels">Year</label>
-                              <input type="number" placeholder="Enter year" class="form-control" id="year" required min="0" max="100">
-                            </div>
-                            <div class="form-group">
-                              <label for="month" class="labels">Month</label>
-                              <input type="number" placeholder="Enter month" class="form-control"  id="month" required min="0" max="12">
-                            </div>
-                            <div class="form-group">
-                              <label for="monthDay" class="labels">Day of month</label>
-                              <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
-                            </div>
-                            <form class="radio-button">
-                              <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-                              <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-                            </form>
-                            <br>
-                            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birth Name</button></a>
-                            <h1 id="result"></h1>
-                    </div>
-                    <div class="panel col-md-6">
-                            <img src="/home/moringaschool/Desktop/My-projects/Week2/Akan-names/boy-playing-in-the-river-3287914.jpg" width="450px" height="400px">
-                        </div>
-                </div>
-                   
-
-           
+  <script type="text/javascript">
+  </script>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Akan Names</h1>
+          <p>Akan names are derived from people of Ghana. They frequently name their children after the day of the week
+            they were born
+            and the order in which they were born. These "day names" have further meanings concerning the
+            soul and character of the person. Middle names have considerably more variety and can refer to
+            their birth order, twin status, or an ancestor's middle name. <br>
+            The application helps calculate a person's Akan name when they input their birthday </p>
         </div>
-    </div>
+      </div>
+      <div class="row">
+        <div class="panel col-md-6">
+          <h2>Input your date in the form below</h2>
+        </div>
+        <div class="row">
+          <div class="panel col-md-6">
+            <div class="form-group top-form">
+              <label for="century" class="labels">Century</label>
+              <input type="number" class="form-control" placeholder="Enter century" id="century" required min="0"
+                max="30">
+            </div>
+            <div class="form-group">
+              <label for="year" class="labels">Year</label>
+              <input type="number" placeholder="Enter year" class="form-control" id="year" required min="0" max="100">
+            </div>
+            <div class="form-group">
+              <label for="month" class="labels">Month</label>
+              <input type="number" placeholder="Enter month" class="form-control" id="month" required min="0" max="12">
+            </div>
+            <div class="form-group">
+              <label for="monthDay" class="labels">Day of month</label>
+              <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required
+                min="0" max="12">
+            </div>
+            <form class="radio-button">
+              <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+              <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            </form>
+            <br>
+            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                onclick="checkDayOfWeek();">Generate Your Akan Name</button></a>
+            <h1 id="result"></h1>
+          </div>
+          <div class="panel col-md-6">
+            <img src="/home/moringaschool/Desktop/My-projects/Week2/Akan-names/boy-playing-in-the-river-3287914.jpg"
+              width="450px" height="400px">
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="panel col-md-3">
+            <h1>Male</h1>
+            <ul>
+              <li>Sunday: Kwasi</li>
+              <li>Monday: Kwadwo</li>
+              <li>Tuesday: Kwabena</li>
+              <li>Wednesday: Kwaku</li>
+              <li>Thursday: Yaw</li>
+              <li>Friday: Kofi</li>
+              <li>Saturday: Kwame</li>
+            </ul>
+          </div>
+
+          <div class="panel col-md-3">
+            <h1>Female</h1>
+            <ul>
+              <li>Sunday: Akosua</li>
+              <li>Monday: Adwoa</li>
+              <li>Tuesday: Abenaa</li>
+              <li>Wednesday: Akua</li>
+              <li>Thursday: Yaa</li>
+              <li>Friday: Afua</li>
+              <li>Saturday: Ama</li>
+            </ul>
+          </div>
+
+        </div>
 
 </body>
 
