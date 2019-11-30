@@ -4,15 +4,28 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
 }
-#intro
 #names{
-    font-size: 10px;
+    font-size: 15px;
 }
 #names h2{
+    color: black;
+    font-size: 19px;
+}
+#names li{
+    font-family: 'Arya', sans-serif;
     color: black;
 }
 #intro h1{
     text-align: center;
     color: black;
     font-family: 'Rye', cursive;
+    margin-top: 80px;
+}
+#intro p{
+    font-family: 'Arya', sans-serif;
+    color: black;
+}
+#inst{
+    font-family: 'Rye', cursive;
+    color: black;
 }
