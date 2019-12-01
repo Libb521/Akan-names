@@ -15,16 +15,18 @@ body{
 #names li{
     font-family: 'Arya', sans-serif;
     color: black;
+    font-size: 15px;
 }
 #intro h1{
     text-align: center;
     color: black;
     font-family: 'Rye', cursive;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 #intro p{
     font-family: 'Arya', sans-serif;
     color: black;
+    font-size: 15px;
 }
 #inst{
     font-family: 'Rye', cursive;
