@@ -8,6 +8,12 @@ var day =function getinput(){
   month = parseInt(document.getElementById("month").value)
   dayOfMonth = parseInt(document.getElementById("monthday").value)
 
+
+  var cent = parseInt(document.getElementById("cent").value);
+  var year = parseInt(document.getElementById("year").value);
+  var month = parseInt(document.getElementById("month").value);
+  var day = parseInt(document.getElementById("day").value);
+
   if(century==""){
     alert("input the correct century");
     return false;
