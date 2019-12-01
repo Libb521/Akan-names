@@ -35,12 +35,26 @@ function calculate(){
   //This is to calculate and find the day of the week. Output should range from 0-6
 }
 
-function checkDayOfWeek(){
+var results = function checkDayOfWeek(){
   day = calculate();
   checkGender();
   console.log("function runs");
 }
 
+//arrays
 let dayOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 let maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 let femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Afua","Afua","Ama"];
+
+function checkGender(){
+  var gen = document.getElementsByName("rads");
+  if(gen[0].checked == true){
+    var gender = "male";
+  }else if(gen[1].checked ==true){
+    var gender = "female";
+  }else {
+    console.log("pass");
+  }
+  
+
+}
