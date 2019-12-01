@@ -55,6 +55,43 @@ function checkGender(){
   }else {
     console.log("pass");
   }
-  
+  switch(gender){
+    case "male":
+    if(dayOfWeek == 0){
+      document.getElementById("results").innerHTML = "You were born on a sunday" + "" + "Your Akan name is" + maleNames[0];
+    }else if(dayOfWeek == 1){
+      document.getElementById("results").innerHTML = "You were born on a monday" + "" + "Your Akan name is" + maleNames[1];
+    }else if(dayOfWeek == 2){
+      document.getElementById("results").innerHTML = "You were born on a tuesday" + "" + "Your Akan name is" + maleNames[2];
+    }else if(dayOfWeek == 3){
+      document.getElementById("results").innerHTML = "You were born on a wednesday" + "" + "Your Akan name is" + maleNames[3];
+    }else if(dayOfWeek == 4){
+      document.getElementById("results").innerHTML = "You were born on a thursday" + "" + "Your Akan name is" + maleNames[4];
+    }else if(dayOfWeek == 5){
+      document.getElementById("results").innerHTML = "You were born on a friday" + "" + "Your Akan name is" + maleNames[5];
+    }else(dayOfWeek == 6){
+      document.getElementById("results").innerHTML = "You were born on a saturday" + "" + "Your Akan name is" + maleNames[6];
+    }
 
+  break;
+  case "female":
+    if(dayOfWeek == 0){
+      document.getElementById("results").innerHTML = "You were born on a sunday" + "" + "Your Akan name is" + femaleNames[0];
+    }else if(dayOfWeek == 1){
+      document.getElementById("results").innerHTML = "You were born on a monday" + "" + "Your Akan name is" + femaleNames[1];
+    }else if(dayOfWeek == 2){
+      document.getElementById("results").innerHTML = "You were born on a tuesday" + "" + "Your Akan name is" + femaleNames[2];
+    }else if(dayOfWeek == 3){
+      document.getElementById("results").innerHTML = "You were born on a wednesday" + "" + "Your Akan name is" + femaleNames[3];
+    }else if(dayOfWeek == 4){
+      document.getElementById("results").innerHTML = "You were born on a thursday" + "" + "Your Akan name is" + femaleNames[4];
+    }else if(dayOfWeek == 5){
+      document.getElementById("results").innerHTML = "You were born on a friday" + "" + "Your Akan name is" + femaleNames[5];
+    }else(dayOfWeek == 6){
+      document.getElementById("results").innerHTML = "You were born on a saturday" + "" + "Your Akan name is" + femaleNames[6];
+    }
+  break
+  default:
+  console.log("pass")
+  }
 }
