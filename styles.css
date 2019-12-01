@@ -1,5 +1,5 @@
 body{
-    background-image: url("/home/moringaschool/Desktop/My-projects/Week2/Akan-names/smiling-woman-wearing-green-and-black-turban-2952204.jpg");
+    background-image: url("/home/moringaschool/Desktop/My-projects/Week2/IP Week2/Akan-names/smiling-woman-wearing-green-and-black-turban-2952204.jpg");
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@ body{
 #names h2{
     color: black;
     font-size: 19px;
+    font-family: 'Rye', cursive;
 }
 #names li{
     font-family: 'Arya', sans-serif;
