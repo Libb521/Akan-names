@@ -30,3 +30,12 @@ body{
     font-family: 'Rye', cursive;
     color: black;
 }
+.btn{
+    width: 250px;
+    border-radius: 10px;
+  }
+#result{
+    margin-top: 30px;
+    color: #000000;
+    font-size: 28px;
+  }
