@@ -1,6 +1,4 @@
 var century, year, month, dayOfMonth, dayOfWeek, day;
-var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Afua","Afua","Ama"];
 
 
 //Get Input
@@ -37,4 +35,12 @@ function calculate(){
   //This is to calculate and find the day of the week. Output should range from 0-6
 }
 
+function checkDayOfWeek(){
+  day = calculate();
+  checkGender();
+  console.log("function runs");
+}
 
+let dayOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+let maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+let femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Afua","Afua","Ama"];
