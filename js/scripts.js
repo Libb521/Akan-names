@@ -25,9 +25,16 @@ var day =function getinput(){
 }
 function calculate(){
   day();//call the function (day)
-  dayOfWeek = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
-  return (Math.floor(dayOfWeek));
+  dayOfWeek = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
   console.log(dayOfWeek);
+  return (Math.floor(dayOfWeek));
+  if (dayOfWeek < 0){
+    dayOfWeek = dayOfWeek * -1;
+  }
+  else if (dayOfWeek > 0) {
+    returndayOfWeek;
+  }
   //This is to calculate and find the day of the week. Output should range from 0-6
 }
+
 
