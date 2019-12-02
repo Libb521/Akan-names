@@ -10,86 +10,11 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arya|Creepster|Rye&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/236x/cd/0d/60/cd0d601b2f7bc8930980ca85334c1dbe.jpg">
+
 </head>
 
 <body>
-  <script type="text/javascript">
-  function empty(){
-  return document.forms['form'];
-}
 
-// var a,b,c;
-// empty()["button"].addEventListener('click',function(e){
-// e.preventDefault();
-// checkEmpty();
-// });
-
-function checkEmpty(){
-  function check(a){
-    return empty()[a].value
-  }
-
-  var year, month, dayOfMonth,gender;
-  yr =check('year');
-  mth=check('month');
-  dayOfMonth=check('dayOfMonth');
-  gender= check('gender')
-  if (year=='' && month=='' && dayOfMonth=='' && gender==''){
-  alert('Input right number in the fields provided to calculate your Akan name');
-  return 0;
-  }else if(year==''){
-    alert('input the right year 2000');
-    return 0;
-  }else if(month==''){
-    alert('input the right month e.g 12');
-    return 0;
-  }else if(dayOfMonth==''){
-    alert('input the right date e.g 30');
-    return 0;
-  }else{
-    calculate(year, month, dayOfMonth, gender);
-  }
-}
-
-
-function calculate(year, month, dayOfMonth,gender){
-  year = perseInt(year);
-  month = perseInt(month);
-  dayOfMonth = perseInt(dayOfMonth);
-  var century=(y-1)/100+1;
-  var formula=parseInt(((26*(month+1)/10)) +((5*year/4)) +((century/4) -2* century - 1) +dayOfMonth)%7;
-  var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Afua","Afua","Ama"];
-  var dayOfMonth = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
-if (month<1 || month>12){
-  alert('invalid month');
-  return 0;
-}else if(dayOfMonth<1 || dayOfMonth>31){
-  alert('invalid date')
-  return 0;
-}else if(year<1 || year>2020){
-  alert('invalid year')
-}
-
-if(gender=='male'){
-  gender = maleNames;
-}else if(gender=='female'){
-  gender= femaleNames;
-}else{
-  alert('invalid gender');
-  return 0;
-}
-
-for(var a=0; a<7;a++){
-  if(Math.ceil(formula)==(a)){
-    document.getElementById("result").innerHTML=('You were born on a:' +day[a]+ 'your Akan name is '+ g[a]);
-    return 0;
-  }
-}
-}
-
-  </script>
 
   <div class="container">
     <div class="jumbotron">
@@ -110,28 +35,30 @@ for(var a=0; a<7;a++){
         </div>
         <div class="row">
           <div class="panel col-md-6">
-            <form class="forms">
-            <div class="form-group">
-              <label for="year" class="labels">Year:</label>
-              <input type="number" class="yr" placeholder="e.g 2000" id="year" required>
-            </div>
-            <div class="form-group">
-              <label for="month" class="labels">Month:</label>
-             <input type="number" class="mth" placeholder="e.g 12" id="month" required>
-            </div>
-            <div class="form-group">
-              <label for="day" class="labels">Day of month:</label>
-              <input type="number" class="day" placeholder="e.g 30" id="dayOfMonth" required>
-            </div>
-            <div class="radio-button" id="gender">
-              <input type="radio" class="genders labels" value="male" id="rad1" name="gender" required>Male
-              <input type="radio" class="genders labels" value="female" id="rad1" name="gender" required>Female
-            </div>
-            <br>
-            <button type="button" value="Submit" name="Button" class="click">Submit</button>
-          </form>
 
-          <h1 id="result"><strong>Name</strong></h1>
+            <!--Form for inputs-->
+            <form class="forms">
+              <div class="form-group">
+                <label for="year" class="labels">Year:</label>
+                <input type="number" class="yr" name="year" placeholder="e.g 2000" id="year" required>
+              </div>
+              <div class="form-group">
+                <label for="month" class="labels">Month:</label>
+                <input type="number" class="mth" name="month" placeholder="e.g 12" id="month" required>
+              </div>
+              <div class="form-group">
+                <label for="day" class="labels">Day of month:</label>
+                <input type="number" class="day" name="day" placeholder="e.g 30" id="dayOfMonth" required>
+              </div>
+              <div class="radio-button" id="gender">
+                <input type="radio" class="genders labels" id="rad1" name="gender" checked required>Male
+                <input type="radio" class="genders labels" id="rad2" name="gender" required>Female
+              </div>
+              <br>
+              <button type="button" value="Submit" name="Button" onclick="akanFunction()">Submit</button>
+            </form>
+
+            <h1 id="result"><strong>Name</strong></h1>
 
           </div>
           <div class="panel col-md-6">
@@ -170,6 +97,8 @@ for(var a=0; a<7;a++){
         </div>
 
       </div> -->
+      <script type="text/javascript" src="js/scripts.js">
+      </script>
 
 </body>
 
