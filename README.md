@@ -36,8 +36,6 @@ Here i have been able to use the four languages and one Version controlsystem.
 | Day of birth  | The day of the week that the user was born ``eg Tuesday`` |
 | Akan name    |  The corresponding Akan name for the user ``eg Kofi``    |
 |     |      |
-## Known Bugs
----
 
 ## Support and contact details
 For any questions, feedback or input, kindly feel free to reach me on <br> [email](eotieno39@yahoo.com) or <br> phone number +254729595342.
