@@ -9,10 +9,10 @@ Take your time to explore and enjoy the application as it is very interesting.
    https://libb521.github.io/Akan-names.github.io/
 
 ## Setup
-*Git clone- https://github.com/Libb521/Akan-names.github.io
-*extract the file to your favorite folder
-*cd to the Akan-names directory
-*Open the index.html in your favorite browser
+* Git clone- https://github.com/Libb521/Akan-names.github.io
+* extract the file to your favorite folder
+* cd to the Akan-names directory
+* Open the index.html in your favorite browser
 
 
 ## Technologies Used
