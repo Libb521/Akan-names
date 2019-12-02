@@ -34,14 +34,14 @@ function akanFunction() {
         }
 
       } else {
-        alert("day");
+        alert("Input the correct date e.g 30");
       }
 
     } else {
-      alert("month");
+      alert("Input the correct month e.g 12");
     }
 
   } else {
-    alert("Year");
+    alert("input the correct year e.g 2019");
   }
 }
