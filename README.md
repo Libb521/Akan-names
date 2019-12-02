@@ -23,6 +23,19 @@ Here i have been able to use the four languages and one Version controlsystem.
 * Bootstrap
 * Github
 
+## BDD
+| Inputs |  Description |
+| :---         |          ---: |
+| Year     | The year of birth ``eg year 2000``   |
+| Month     | The month of birth ``eg 7th month``     |
+| Date     |  The day of birth ``eg 15th day`` |
+
+
+| Expected Outputs |  Description |
+| :---         |          ---: |
+| Day of birth  | The day of the week that the user was born ``eg Tuesday`` |
+| Akan name    |  The corresponding Akan name for the user ``eg Kofi``    |
+|     |      |
 ## Known Bugs
 ---
 
