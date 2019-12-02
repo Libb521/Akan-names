@@ -6,10 +6,10 @@ This is an application that gives the user their Akan name depoending on the dat
 Take your time to explore and enjoy the application as it is very interesting.
 
 ## Live link to my project
----
+   https://libb521.github.io/Akan-names.github.io/
 
 ## Setup
-*Git clone---
+*Git clone- https://github.com/Libb521/Akan-names.github.io
 *extract the file to your favorite folder
 *cd to the Akan-names directory
 *Open the index.html in your favorite browser
